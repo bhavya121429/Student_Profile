@@ -36,7 +36,7 @@ public class RegistrationController extends HttpServlet {
 			student.setStudentName(name);
         	student.setStudentAddr(Addr);
         	student.setAge(age);
-        	student.setQualification(Qual);
+        	student.setQ(Qual);
         	student.setPercentage(Persent);
         	student.setYearPassed(Year); 
 			int status=StudentDAO.saveStudent(student);  

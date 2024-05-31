@@ -69,7 +69,7 @@ public class StudentDAO {
             ps.setString(1,std.getStudentName());  
             ps.setString(2,std.getStudentAddr());  
             ps.setString(3,std.getAge());  
-            ps.setString(4,std.getQualification());  
+            ps.setString(4,std.getQ());  
             ps.setString(5,std.getPercentage());  
             ps.setString(6,std.getYearPassed());
               
@@ -88,7 +88,7 @@ public class StudentDAO {
             ps.setString(1,std.getStudentName());  
             ps.setString(2,std.getStudentAddr());  
             ps.setString(3,std.getAge());  
-            ps.setString(4,std.getQualification());  
+            ps.setString(4,std.getQ());  
             ps.setString(5,std.getPercentage());  
             ps.setString(6,std.getYearPassed());
             ps.setInt(7, std.getStudentId());
@@ -126,7 +126,7 @@ public class StudentDAO {
             	student.setStudentName(rs.getString(2));
             	student.setStudentAddr(rs.getString(3));
             	student.setAge(rs.getString(4));
-            	student.setQualification(rs.getString(5));
+            	student.setQ(rs.getString(5));
             	student.setPercentage(rs.getString(6));
             	student.setYearPassed(rs.getString(7));
                  
@@ -149,7 +149,7 @@ public class StudentDAO {
             	student.setStudentName(rs.getString(2));
             	student.setStudentAddr(rs.getString(3));
             	student.setAge(rs.getString(4));
-            	student.setQualification(rs.getString(5));
+            	student.setQ(rs.getString(5));
             	student.setPercentage(rs.getString(6));
             	student.setYearPassed(rs.getString(7));  
             	students.add(student);  

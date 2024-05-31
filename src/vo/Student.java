@@ -5,7 +5,7 @@ public class Student {
 	private String studentName;
 	private String studentAddr;
 	private String age;
-	private String qualification;
+	private String Q;
 	private String percentage;
 	private String yearPassed;
 	
@@ -43,12 +43,12 @@ public class Student {
 		this.age = age;
 	}
 
-	public String getQualification() {
-		return qualification;
+	public String getQ() {
+		return Q;
 	}
 
-	public void setQualification(String qualification) {
-		this.qualification = qualification;
+	public void setQ(String Q) {
+		this.Q = Q;
 	}
 
 	public String getPercentage() {

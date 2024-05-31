@@ -31,7 +31,7 @@ public class EditStudent extends HttpServlet{
 	        out.print("<tr><td>Full Name :</td><td><input type='text' name='stdname' value='"+student.getStudentName()+"'/></td></tr>");  
 	        out.print("<tr><td>Address :</td><td><input type='text' name='stdaddrs' value='"+student.getStudentAddr()+"'/></td></tr>");  
 	        out.print("<tr><td>Age :</td><td><input type='text' name='stdage' value='"+student.getAge()+"'/></td></tr>");
-	        out.print("<tr><td>Qualification :</td><td><input type='text' name='stdqual' value='"+student.getQualification()+"'/></td></tr>");  
+	        out.print("<tr><td>Q :</td><td><input type='text' name='stdqual' value='"+student.getQ()+"'/></td></tr>");  
 	        out.print("<tr><td>Percentage :</td><td><input type='text' name='stdpercent' value='"+student.getPercentage()+"'/></td></tr>");  
 	        out.print("<tr><td>Year of Passout :</td><td><input type='text' name='stdyearpass' value='"+student.getYearPassed()+"'/></td></tr>");  
 	        out.print("<tr><td colspan='2'><input type='submit' value='Edit & Save '/></td></tr>");  
